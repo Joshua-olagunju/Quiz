@@ -1,0 +1,153 @@
+/* Reset & base */
+body, html {
+  font-family: monospace !important;
+  margin: 0;
+  padding: 0;
+  background-color: #000000 !important;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  color: #cc6666;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+/* Quiz container */
+.quiz-container {
+  max-width: 600px;
+  margin: auto;
+  border: 2px solid #cc6666;
+  background-color: #bdbdbd;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Question text */
+#question-text {
+  font-size: 25px;
+  margin-bottom: 1rem;
+}
+
+/* Options container */
+#options-container {
+  font-weight: 500;
+  font-size: large !important;
+}
+
+/* Option label */
+.option-label {
+  cursor: pointer;
+}
+
+/* Buttons default styling */
+.btn {
+  border-radius: 0.25rem;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.875rem;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Dark buttons */
+.btn-dark {
+  background-color: #333333;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.btn-dark:hover {
+  background-color: #cc6666 !important;
+  border: 1px solid #000000 !important;
+  color: #fff;
+}
+
+/* LinkedIn button */
+.btn-linkedin {
+  background-color: #0077b5 !important;  /* LinkedIn blue */
+  color: white !important;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  text-decoration: none;
+}
+
+.btn-linkedin:hover,
+.btn-linkedin:focus {
+  background-color: #005582 !important;  /* Darker blue on hover */
+  color: white !important;
+  text-decoration: none;
+}
+
+/* Portfolio button */
+.btn-portfolio {
+  background-color: #28a745 !important;  /* Bootstrap green */
+  color: white !important;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  text-decoration: none;
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  background-color: #1e7e34 !important;  /* Darker green on hover */
+  color: white !important;
+  text-decoration: none;
+}
+
+/* Question counter */
+#question-counter {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Result container */
+#result {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #cc6666;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.mx-md-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.me-2 {
+  margin-right: 0.5rem !important;
+}
+
+/* Disabled button */
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
